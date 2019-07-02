@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CustomViewStyle">
+    <attr format="enum" name="mcv_font">
+      <enum name="IranSans" value="1"/>
+      <enum name="IranSansBold" value="2"/>
+      <!--<enum name="Roboto" value="3"/>-->
+      <enum name="Yekan" value="4"/>
+    </attr>
+    <attr format="reference" name="mcv_icon"/>
+  </declare-styleable>
+  <declare-styleable name="HeaderView">
+    <attr format="string" name="label"/>
+    <attr format="string" name="sub_label"/>
+    <attr format="color" name="color_txt"/>
+    <attr format="color" name="color_back"/>
+    <attr format="reference" name="back_image"/>
+    <attr format="dimension" name="back_image_padding"/>
+  </declare-styleable>
+</resources>
